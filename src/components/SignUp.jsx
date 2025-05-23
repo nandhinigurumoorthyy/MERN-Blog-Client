@@ -16,7 +16,7 @@ function SignUp() {
     e.preventDefault();
 
     axios
-      .post("https://mern-blog-server-t3fr.onrender.com/auth/signup", {
+      .post("https://mern-blog-api-0v3s.onrender.com/auth/signup", {
         username,
         email,
         password,

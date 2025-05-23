@@ -15,7 +15,7 @@ const LogIn = () => {
         e.preventDefault();
 
         axios
-            .post("https://mern-blog-server-t3fr.onrender.com/auth/login", { email, password })
+            .post("https://mern-blog-api-0v3s.onrender.com/auth/login", { email, password })
             .then((res) => {
                 console.log("Login response:", res);
 

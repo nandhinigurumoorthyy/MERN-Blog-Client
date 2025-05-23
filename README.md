@@ -90,7 +90,7 @@ Ensure the back-end (MERN API) is running locally or deployed.
 
 ## ✨ Live Preview
 
-🌐 Frontend Live Site (Deployed via Netlify): (https://mern-blog-ui.netlify.app/)
+🌐 Frontend Live Site (Deployed via Netlify): (https://mern-blogcom-client.netlify.app/)
 
 
 ## 📝 Notes

@@ -40,7 +40,7 @@ const Blogs = () => {
     console.log("Submitting Blog:", blogData);
 
     try {
-      const response = await fetch("https://mern-blog-server-t3fr.onrender.com/post/blogs", {
+      const response = await fetch("https://mern-blog-api-0v3s.onrender.com/post/blogs", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -77,7 +77,7 @@ const Blogs = () => {
 
   // get all blogs
   useEffect(() => {
-    fetch("https://mern-blog-server-t3fr.onrender.com/get/blogs")
+    fetch("https://mern-blog-api-0v3s.onrender.com/get/blogs")
       .then((res) => res.json())
       .then((data) => {
         setBlogs(data);
@@ -90,7 +90,7 @@ const Blogs = () => {
     // Encode the query to be URL safe
 
     fetch(
-      `https://mern-blog-server-t3fr.onrender.com/blogs?search=${encodeURIComponent(searchTerm)}`
+      `https://mern-blog-api-0v3s.onrender.com/blogs?search=${encodeURIComponent(searchTerm)}`
     )
       .then((res) => res.json())
       .then((data) => setBlogs(data))
@@ -241,7 +241,7 @@ const Blogs = () => {
           onClick={() => {
             setSearchTerm("");
             // Fetch all blogs again
-            fetch("https://mern-blog-server-t3fr.onrender.com/getall/blogs")
+            fetch("https://mern-blog-api-0v3s.onrender.com/getall/blogs")
               .then((res) => res.json())
               .then((data) => setBlogs(data));
           }}
