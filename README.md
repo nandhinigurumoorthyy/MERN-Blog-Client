@@ -44,7 +44,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nandhinigurumoorthyy/MERN-Blog-UI.git
+   git clone https://github.com/nandhinigurumoorthyy/MERN-Blog-Client.git
    cd MERN-Blog-UI
     ```
 2. **Install dependencies**
@@ -76,7 +76,7 @@ src/
 
 Ensure the back-end (MERN API) is running locally or deployed.
 
-🔗 Backend Repository: [mern-blog-api](https://github.com/nandhinigurumoorthyy/MERN-Blog-Server.git)
+🔗 Backend Repository: [mern-blog-api](https://github.com/nandhinigurumoorthyy/MERN-Blog-API.git)
 
 
 ### Example API Endpoints Used:
