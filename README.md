@@ -45,7 +45,7 @@ src/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/nandhinigurumoorthyy/MERN-Blog-Client.git
-   cd MERN-Blog-UI
+   cd MERN-Blog-Client
     ```
 2. **Install dependencies**
 
